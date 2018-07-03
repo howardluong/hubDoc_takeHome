@@ -1,0 +1,7 @@
+
+6.  
+
+a. Filter all search results and store them into an array variable
+   
+ 
+b. Display all href attributes from array created at a.

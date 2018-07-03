@@ -1,0 +1,12 @@
+
+9. The following code must be implemented with Nightmare.js.
+    
+
+a). Navigate to Google page.
+    
+
+b). Search for 'W3Schools'.
+    
+
+c). In the first result page navigate on each link and check if the title from the result is the same with the title on website page.
+    Hint: You can use evaluate method from Nightmare and return data from the page. You can include bluebird.js -> Promise.each method to iterate serially.

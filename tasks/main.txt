@@ -1,0 +1,25 @@
+Welcome to your Hubdoc Take-Home Skill Assessment! We hope you have at least a bit of fun.
+
+Your task is to write a webscraper that performs the following tasks:
+    
+
+a) Navigate to https://datatables.net/ by typing "datatables" into google search, and clicking on the correct result.
+
+
+b) You will find a table example with some data. Please fetch/extract data from table into array.
+    
+-In the array you will have objects. 
+-An object will be a row from the table. 
+-The object properties will be data from every table column.
+    
+Hint: Many javascript scraping frameworks like Puppetteer and Nightmare implement a .evaluate which would allow you to use .map(function(){ // return object with data }).toArray() from Jquery.
+    
+
+c) Please export the array as a CSV
+
+    We're looking to see it work, obviously, but we're also looking at your coding style. Name things well. Try to make your code readable.
+    Extra points if you use Nightmare.js or a Headless Chrome library like Puppeteer, and if you use Promises and async/await.
+
+    If you are confused or intimidated, Don't Panic.
+    We've provided some starter problems below that will help you scaffold your way up to the main assignment. We encourage you to do and submit them all, but we understand your time is valuable, and we won't think less of you if you only do the main assignment.
+

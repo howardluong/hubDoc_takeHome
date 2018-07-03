@@ -1,0 +1,13 @@
+
+8. The following code must be implemented with JS6. We have a class named 'Work'. In this class we need to declare a function. Create asynchronous function (You can choose the name of the function). The function will get 1 parameter. (nightmare).
+    We assume that there are declared 3 function named (log in,statement,fetch). The first and the second function will accept 1 parameter.
+    In the function body:
+   
+ 
+a). Functions that accept parameter need to be invoked with nightmare as parameter.
+    
+
+b). Every function must be called in serial (Every function depend on the previous called function). The asynchronous function have a special keyword that you can use for it.
+    
+
+c). In this class there is a method named 'success'. It accept one parameter 'message'. Please return this method with a message.

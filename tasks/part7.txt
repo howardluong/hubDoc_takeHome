@@ -1,0 +1,12 @@
+
+
+7. Given the sample HTML:
+
+    <div class='container'>
+    <p>Hello</p>
+    <p>World</p>
+    <p>!!!</p>
+    </div>
+    Please select the second 'p' element based on tag name. You can use JQuery or native JS. Use the query selector (CSS Selectors).
+
+

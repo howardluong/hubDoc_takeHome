@@ -1,0 +1,14 @@
+4.  
+
+a. Type manually "test" into search input at google.com
+    
+
+b. Retrieve and save in a variable value of input search field
+  
+  
+c. Append the string " robot" the the variable from step b
+    
+
+d. Set input search field value to variable from previous step
+
+
