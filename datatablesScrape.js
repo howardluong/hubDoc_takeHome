@@ -1,6 +1,5 @@
 const Nightmare = require('nightmare'); //NightmareJS is a node package, we can use npm to install it and save it as a dependency for our webscraper
 const nightmare = Nightmare({show: true});  //This method enables the electron simulation, if omitted or set to false, it would be headless
-const jquery = require('jquery');
 const { csvFormat } = require('d3-dsv');  //Another node package for handling data is d3-dsv
 const { readFileSync, writeFileSync } = require('fs');  //We have to require the 'file systems' method so we can manipulate with ours later on
 
