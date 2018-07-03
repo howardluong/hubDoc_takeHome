@@ -19,15 +19,15 @@ nightmare
     let arrOfData = []; //We need to store our data into an array as per instructions
     let rowData = document.querySelectorAll('#example')['0'].children['1'].querySelectorAll('tr') //Save all 'tr' elements to a varible
     for(let i = 0; i < rowData.length; i++){  // We can access all the rowData elements by looping through them
-      let entryObj = {};  //We have to store each tablerow into an object as instructed, so we create an empty object for storage
+      let rowEntry = {};  //We have to store each tablerow into an object as instructed, so we create an empty object for storage
       let lineEntry = rowData[i].querySelectorAll('td');  //Save each all the tabledata of each tablerow iterated into a variable
-      entryObj.name = lineEntry[0].textContent; //Construct the object properties and give them their repective values,
-      entryObj.position = lineEntry[1].textContent; //we access the values of the tabledata with the textContent property
-      entryObj.office = lineEntry[2].textContent;
-      entryObj.age = lineEntry[3].textContent;
-      entryObj.startDate = lineEntry[4].textContent;
-      entryObj.salary = lineEntry[5].textContent;
-      arrOfData.push(entryObj) //After giving properties their values for each row, push the finished objects into the array.
+      rowEntry.name = lineEntry[0].textContent; //Construct the object properties and give them their repective values,
+      rowEntry.position = lineEntry[1].textContent; //we access the values of the tabledata with the textContent property
+      rowEntry.office = lineEntry[2].textContent;
+      rowEntry.age = lineEntry[3].textContent;
+      rowEntry.startDate = lineEntry[4].textContent;
+      rowEntry.salary = lineEntry[5].textContent;
+      arrOfData.push(rowEntry) //After giving properties their values for each row, push the finished objects into the array.
     }
     return arrOfData; //Return the array. This data will be passed onto our .then() method so we can convert it into a csv file later
   })
